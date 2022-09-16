@@ -1,0 +1,66 @@
+{
+  "name": "next-datocms-template",
+  "version": "0.1.0",
+  "keywords": [],
+  "author": "Lorenzo Ponticelli aka Lorezz <point.point@gmail.com> (https://lorezz.me/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lorezz/Next-DatoCMS-Template.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "postbuild": "next-sitemap",
+    "algolia": "node ./scripts/algoliaindex.js"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.12",
+    "@chakra-ui/react": "^1.4.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@hookform/resolvers": "1.3.0",
+    "@xstate/react": "^1.3.1",
+    "algoliasearch": "^4.10.3",
+    "axios": "^0.21.1",
+    "datocms-structured-text-to-plain-text": "^1.1.4",
+    "datocms-structured-text-utils": "^1.1.3",
+    "framer-motion": "^4.1.11",
+    "hls.js": "^1.0.4",
+    "leaflet": "^1.7.1",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "lodash": "^4.17.21",
+    "mapbox-gl": "^2.2.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "next": "^11.0.1",
+    "next-seo": "^4.24.0",
+    "nprogress": "^0.2.0",
+    "prismjs": "^1.23.0",
+    "react": "17.0.1",
+    "react-datocms": "^1.6.3",
+    "react-dom": "17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.9.6",
+    "react-icons": "^4.2.0",
+    "react-instantsearch-dom": "^6.12.0",
+    "react-leaflet": "^3.2.1",
+    "react-player": "^2.9.0",
+    "swiper": "^6.7.5",
+    "swr": "^0.5.6",
+    "xstate": "^4.17.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^3.7.1",
+    "dotenv": "^10.0.0",
+    "next-sitemap": "^1.6.140"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
